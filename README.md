@@ -10,6 +10,9 @@ Note that the program will validate found zeros up to ~1M.
 Beyond that the program has no records of zeros and thus will label them as errors (they may or may not be without a ground truth).
 You can update the zeros6.txt file to include more zeros as ground truths.
 
+
+The program is expected to run in O(1) complexity in terms of N (number of terms). Time grows due to zeta computation.
+
 ---
 
 ## Usage
