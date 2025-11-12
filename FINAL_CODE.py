@@ -138,6 +138,7 @@ def process_tile(a, b, N0, Nmax, step_scale, min_dt):
 # Main driver
 # ============================================================
 
+#python3 FINAL_CODE.py --start S --end E --tiles 60*(E-S)/7.5 --N0 20 --Nmax 1000
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--start", type=float, required=True)
